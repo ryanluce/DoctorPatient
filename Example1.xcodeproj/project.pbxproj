@@ -15,6 +15,14 @@
 		947AD87E19FE959800478B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947AD87D19FE959800478B9D /* Images.xcassets */; };
 		947AD88119FE959800478B9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947AD87F19FE959800478B9D /* LaunchScreen.xib */; };
 		947AD88D19FE959900478B9D /* Example1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD88C19FE959900478B9D /* Example1Tests.m */; };
+		947AD89919FE95ED00478B9D /* DataCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD89819FE95ED00478B9D /* DataCoordinator.m */; };
+		947AD8A319FE9BB800478B9D /* _Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD89C19FE9BB800478B9D /* _Doctor.m */; };
+		947AD8A419FE9BB800478B9D /* _Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD89E19FE9BB800478B9D /* _Patient.m */; };
+		947AD8A519FE9BB800478B9D /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD8A019FE9BB800478B9D /* Doctor.m */; };
+		947AD8A619FE9BB800478B9D /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD8A219FE9BB800478B9D /* Patient.m */; };
+		947AD8AA1A00400000478B9D /* Patients.json in Resources */ = {isa = PBXBuildFile; fileRef = 947AD8A81A00400000478B9D /* Patients.json */; };
+		947AD8AB1A00400000478B9D /* Doctors.json in Resources */ = {isa = PBXBuildFile; fileRef = 947AD8A91A00400000478B9D /* Doctors.json */; };
+		947AD8AC1A004C1000478B9D /* DataCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 947AD89819FE95ED00478B9D /* DataCoordinator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,18 @@
 		947AD88619FE959900478B9D /* Example1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Example1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947AD88B19FE959900478B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947AD88C19FE959900478B9D /* Example1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example1Tests.m; sourceTree = "<group>"; };
+		947AD89719FE95ED00478B9D /* DataCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCoordinator.h; path = Controller/DataCoordinator.h; sourceTree = "<group>"; };
+		947AD89819FE95ED00478B9D /* DataCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataCoordinator.m; path = Controller/DataCoordinator.m; sourceTree = "<group>"; };
+		947AD89B19FE9BB800478B9D /* _Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Doctor.h; path = Model/_Doctor.h; sourceTree = "<group>"; };
+		947AD89C19FE9BB800478B9D /* _Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Doctor.m; path = Model/_Doctor.m; sourceTree = "<group>"; };
+		947AD89D19FE9BB800478B9D /* _Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Patient.h; path = Model/_Patient.h; sourceTree = "<group>"; };
+		947AD89E19FE9BB800478B9D /* _Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Patient.m; path = Model/_Patient.m; sourceTree = "<group>"; };
+		947AD89F19FE9BB800478B9D /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Doctor.h; path = Model/Doctor.h; sourceTree = "<group>"; };
+		947AD8A019FE9BB800478B9D /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Doctor.m; path = Model/Doctor.m; sourceTree = "<group>"; };
+		947AD8A119FE9BB800478B9D /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Patient.h; path = Model/Patient.h; sourceTree = "<group>"; };
+		947AD8A219FE9BB800478B9D /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patient.m; path = Model/Patient.m; sourceTree = "<group>"; };
+		947AD8A81A00400000478B9D /* Patients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Patients.json; sourceTree = "<group>"; };
+		947AD8A91A00400000478B9D /* Doctors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Doctors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,8 @@
 		947AD86C19FE959800478B9D /* Example1 */ = {
 			isa = PBXGroup;
 			children = (
+				947AD89A19FE9BA100478B9D /* Model */,
+				947AD89619FE95B900478B9D /* Controller */,
 				947AD87119FE959800478B9D /* AppDelegate.h */,
 				947AD87219FE959800478B9D /* AppDelegate.m */,
 				947AD87719FE959800478B9D /* ViewController.h */,
@@ -91,6 +113,9 @@
 				947AD87D19FE959800478B9D /* Images.xcassets */,
 				947AD87F19FE959800478B9D /* LaunchScreen.xib */,
 				947AD87419FE959800478B9D /* Example1.xcdatamodeld */,
+				947AD8A71A003F8600478B9D /* JSON */,
+				947AD8A81A00400000478B9D /* Patients.json */,
+				947AD8A91A00400000478B9D /* Doctors.json */,
 				947AD86D19FE959800478B9D /* Supporting Files */,
 			);
 			path = Example1;
@@ -120,6 +145,37 @@
 				947AD88B19FE959900478B9D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		947AD89619FE95B900478B9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				947AD89719FE95ED00478B9D /* DataCoordinator.h */,
+				947AD89819FE95ED00478B9D /* DataCoordinator.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		947AD89A19FE9BA100478B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				947AD89B19FE9BB800478B9D /* _Doctor.h */,
+				947AD89C19FE9BB800478B9D /* _Doctor.m */,
+				947AD89D19FE9BB800478B9D /* _Patient.h */,
+				947AD89E19FE9BB800478B9D /* _Patient.m */,
+				947AD89F19FE9BB800478B9D /* Doctor.h */,
+				947AD8A019FE9BB800478B9D /* Doctor.m */,
+				947AD8A119FE9BB800478B9D /* Patient.h */,
+				947AD8A219FE9BB800478B9D /* Patient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		947AD8A71A003F8600478B9D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947AD8AB1A00400000478B9D /* Doctors.json in Resources */,
 				947AD87C19FE959800478B9D /* Main.storyboard in Resources */,
 				947AD88119FE959800478B9D /* LaunchScreen.xib in Resources */,
+				947AD8AA1A00400000478B9D /* Patients.json in Resources */,
 				947AD87E19FE959800478B9D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,8 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				947AD87319FE959800478B9D /* AppDelegate.m in Sources */,
+				947AD89919FE95ED00478B9D /* DataCoordinator.m in Sources */,
+				947AD8A419FE9BB800478B9D /* _Patient.m in Sources */,
+				947AD8A619FE9BB800478B9D /* Patient.m in Sources */,
 				947AD87619FE959800478B9D /* Example1.xcdatamodeld in Sources */,
 				947AD87919FE959800478B9D /* ViewController.m in Sources */,
+				947AD8A319FE9BB800478B9D /* _Doctor.m in Sources */,
+				947AD8A519FE9BB800478B9D /* Doctor.m in Sources */,
 				947AD87019FE959800478B9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947AD8AC1A004C1000478B9D /* DataCoordinator.m in Sources */,
 				947AD88D19FE959900478B9D /* Example1Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

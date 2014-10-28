@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "dateOfBirth": "October 15, 1989",
+    "gender": "Female",
+    "medicalNote": "If an illness occurs when the clinic is closed and you get a note from a physician off campus – make sure it is on their professional letterhead. Only the attending physician who personally diagnosed the student at the time of their illness can write the note.",
+    "pictureName": "patient1.jpeg"
+  },
+  {
+    "firstName": "Bhupinder",
+    "lastName": "Bhaktamitran",
+    "dateOfBirth": "June 2, 1978",
+    "gender": "Male",
+    "medicalNote": "Many years later, and after I was born, when we lived peacefully in Calcutta as the Baktarmitrans, we came across many people with their names beginning with Bhakta, and my name-concious father felt that if he changed the spelling of his name, just a wee bit, to Bhaktamitran from Baktarmitran, he would at least share the beginning of his name with others. So it was that by the time our family left Calcutta, when I was eight, we were the Bhaktamitrans. Bhatkta was a known name and Mitran was a known name. Still, we were the only ones on the planet with this compound name, and with no male heir, the name was doomed to blaze across the sky like a shooting star and fizzle out in due course",
+    "pictureName": "patient2.jpeg"
+  },
+  {
+    "firstName": "Jon",
+    "lastName": "Doe",
+    "dateOfBirth": "September 5, 1992",
+    "gender": "Male",
+    "medicalNote": "MR images and medical records were reviewed for 11 patients with surgically proven posterior tibial tendon abnormalities (i.e., tears or tenosynovitis) and for six patients with clinical evidence of posterior tibial tendon dysfunction. Our study group included 16 women and one man from 37 to 70 years old (mean, 53.5 years old).",
+    "pictureName": "patient3.jpeg"
+  }
+]

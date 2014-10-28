@@ -1,0 +1,20 @@
+[
+    {
+        "firstName": "Janice",
+        "lastName": "Mauer",
+        "hospitalName": "St. Jude's Children's Hospital",
+        "pictureName": "doctor1.jpeg"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Downing",
+        "hospitalName": "Johnson City Medical Center",
+        "pictureName": "doctor2.jpeg"
+    },
+    {
+        "firstName": "Donald",
+        "lastName": "Carter",
+        "hospitalName": "Huntsville Hospital for Women & Children",
+        "pictureName": "doctor3.jpeg"
+    }
+]

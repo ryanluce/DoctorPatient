@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "DataCoordinator.h"
 
 @interface Example1Tests : XCTestCase
 
@@ -25,16 +26,25 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testDoctors
+{
+    DataCoordinator *dataCoordinator = [DataCoordinator sharedDataCoordinator];
+    //TODO: safer to load json and dynamically set this number
+    NSUInteger numberOfDoctorsInJSON = 3;
+    
+    XCTAssertEqual(dataCoordinator.numberOfDoctors, numberOfDoctorsInJSON, @"Number of Doctors is equal in JSON and Core Data Store");
+    
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testPatients
+{
+    DataCoordinator *dataCoordinator = [DataCoordinator sharedDataCoordinator];
+    //TODO: safer to load json and dynamically set this number
+    NSUInteger numberOfPatientsInJSON = 3;
+    
+    XCTAssertEqual(dataCoordinator.numberOfPatients, numberOfPatientsInJSON, @"Number of Patients is equal in JSON and Core Data Store");
 }
+
+
 
 @end
